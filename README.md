@@ -30,7 +30,6 @@ O site proporciona uma plataforma para os gamers brasileiros descobrirem e adqui
 Para visualizar o site "Iara Games", basta abrir o arquivo index.html em qualquer navegador web moderno.
 
 ```bash
-Copy code
 git clone https://github.com/seu_usuario/iara-games.git
 cd iara-games
 ```
