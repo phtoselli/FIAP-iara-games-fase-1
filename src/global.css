@@ -1,0 +1,246 @@
+:root {
+  --color-background: #efefef;
+  --color-card: #ffffff;
+  --color-card-dark: rgba(38, 128, 0, 0.17);
+  --color-font: #222222;
+  --color-primary: green;
+  --color-secondary: yellow;
+
+  --font-family: sans-serif;
+
+  --magic-number: 8px;
+  --max-width: 1104px;
+
+  --radius: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  align-items: center;
+  background-color: var(--color-background);
+  color: var(--color-font);
+  display: flex;
+  flex-direction: column;
+  font-size: var(--magic-number);
+  font-family: var(--font-family);
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+ main, .max {
+  width: var(--max-width);
+  max-width: var(--max-width);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header, footer {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-card);
+}
+
+img {
+  border-radius: var(--radius);
+}
+
+footer {
+  flex-direction: column;
+  padding-bottom: calc(var(--magic-number) * 20);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 3em;
+}
+
+a, p, span {
+  font-size: 2em;
+}
+
+a {
+  color: var(--color-font);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--color-font);
+}
+
+a:hover {
+  color: var(--color-primary);
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: var(--magic-number);
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: var(--magic-number);
+}
+
+hr.space1 {
+  padding: var(--magic-number) 0px;
+  border: none;
+}
+
+hr.space2 {
+  padding: calc(var(--magic-number) * 2) 0px;
+  border: none;
+}
+
+.between {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cta1-card {
+  background-color: var(--color-card-dark);
+  border-radius: var(--radius);
+  padding: calc(var(--magic-number) * 2);
+}
+
+.column {
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+}
+
+.divisor {
+  width: var(--max-width);
+  margin: calc(var(--magic-number) * 10) 0px;
+  border-color: var(--color-primary);
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  gap: calc(var(--magic-number) * 4);
+}
+
+.free-card {
+  width: 25%;
+  padding: calc(var(--magic-number) * 2);
+  border-radius: var(--radius);
+}
+
+.free-card-1 {
+  background-color: var(--color-card);
+  padding: calc(var(--magic-number) * 2);
+  border-radius: var(--radius);
+}
+
+.free-card-2 {
+  background-color: var(--color-card);
+  padding: calc(var(--magic-number) * 2);
+  border-radius: var(--radius);
+}
+
+.free-card-3 {
+  background-color: var(--color-card);
+  padding: calc(var(--magic-number) * 2);
+  border-radius: var(--radius);
+}
+
+.free-card-4 {
+  background-color: var(--color-card);
+  padding: calc(var(--magic-number) * 2);
+  border-radius: var(--radius);
+}
+
+.free-card-1,
+.free-card-2,
+.free-card-3,
+.free-card-4,
+.free-card-5 {
+  height: 400px;
+  padding: calc(var(--magic-number) *3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.099);
+}
+
+.game-list {
+  padding: calc(var(--magic-number) * 2);
+}
+
+.game-list li{
+  font-size: 2rem;
+}
+
+.hero-img {
+  border-radius: var(--radius);
+  width: 100%;
+}
+
+.nav {
+  gap: calc(var(--magic-number) * 3);
+}
+
+.w-50 {
+  width: 50%;
+  padding: calc(var(--magic-number) * 2);
+}
+
+.color-card-dark {
+  background-color: var(--color-card-dark);
+}
+
+#cta1 {
+  padding: calc(var(--magic-number) * 2);
+}
+
+#cta2 {
+  padding: calc(var(--magic-number) * 2);
+}
+
+#cta3 {
+  padding: calc(var(--magic-number) * 2);
+}
+
+#free {
+  padding: calc(var(--magic-number) * 2);
+}
+
+#header {
+  padding: calc(var(--magic-number) * 2);
+}
+
+#hero {
+  padding: calc(var(--magic-number) * 2);
+}
+
+#highlights {
+  padding: calc(var(--magic-number) * 2);
+}
+
+#list {
+  padding: calc(var(--magic-number) * 2);
+}
